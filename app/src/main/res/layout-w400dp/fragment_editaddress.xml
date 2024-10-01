@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dpend.foodfever.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bubblegum_sans"
+            android:text="Edit address"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:textSize="25sp" />
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Name"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/editaddressname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:inputType="textPersonName"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="25dp"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Mobile Number"
+                android:textColor="#000"
+                android:textSize="20sp" />
+         <EditText
+             android:id="@+id/editaddressphone"
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+             android:padding="5dp"
+             android:textSize="20sp"
+             android:inputType="phone"
+             android:layout_marginBottom="25dp"
+             android:background="@drawable/input_background"
+             />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Pincode"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        <EditText
+            android:id="@+id/editaddresspincode"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/input_background"
+            android:inputType="phone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Address1"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        <EditText
+            android:id="@+id/editaddressaddress"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/input_background"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Landmark"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        <EditText
+            android:id="@+id/editaddresslandmark"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/input_background"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Housename"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        <EditText
+            android:id="@+id/editaddresshousename"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="25dp"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:inputType="textPersonName"
+            android:background="@drawable/input_background"
+
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Town/Street"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        <EditText
+            android:id="@+id/editaddresstown"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:background="@drawable/input_background"
+            />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/updateaddress"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="35sp"
+            android:textAllCaps="false"
+            android:background="#fca103"
+            android:textColor="@color/white"
+            android:text="Update"/>
+    </LinearLayout>
+</ScrollView>

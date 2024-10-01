@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input what ever you want to be written on the cake/item"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/caketext"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:hint="eg:happy birthday abc"
+        android:background="@drawable/loginreg_input"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="25dp">
+        <Button
+            android:id="@+id/noc_continue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textColor="@color/white"
+            android:layout_margin="2dp"
+            android:text="Continue"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/open_sans_semibold"/>
+        <Button
+            android:id="@+id/noc_cancel"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Cancel"
+            android:layout_margin="2dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/open_sans_semibold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

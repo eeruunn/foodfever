@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/seller2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="5dp"
+                android:text="sold by"
+                android:textColor="#096dab"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="----"
+                android:textColor="@color/quantum_grey"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginBottom="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="----"
+                    android:textColor="#a80c0c"
+                    android:textSize="35sp" />
+
+                <TextView
+                    android:id="@+id/realprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="20dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="No's :"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#000" />
+
+                <TextView
+                    android:id="@+id/spinnertext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Size/qty:"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spinnersize"
+                    android:layout_width="150dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#000" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/stock2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:text="stock"
+                android:textColor="#1ea80c"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:maxLines="6"
+                android:paddingLeft="10dp"
+                android:text="description"
+                android:textColor="@color/quantum_grey"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/buynowbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/orderbtns"
+                android:padding="18dp"
+                android:text="buy now"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/addtocartbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/orderbtns"
+                android:padding="18dp"
+                android:text="Add to Cart"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

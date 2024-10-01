@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/offline"
+    >
+
+
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/reload"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="#fca103"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="Retry"
+        android:layout_centerInParent="true"
+        android:textStyle="bold" />
+</RelativeLayout>

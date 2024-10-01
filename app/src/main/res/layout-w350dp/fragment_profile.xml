@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bubblegum_sans"
+            android:text="Profile"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/profpic"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:src="@drawable/blank_profile"/>
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:id="@+id/editimagebutton"
+                android:layout_marginEnd="110dp"
+                android:src="@drawable/editimgicon"/>
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Your name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:id="@+id/phonetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Your phone"
+            android:gravity="center"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textColor="@color/quantum_grey"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/profilechangepasswordbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Change password"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/profileyourorderbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Your Orders"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/profileyourcartbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Your Cart"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/profileyouraddressesbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Your Addresses"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

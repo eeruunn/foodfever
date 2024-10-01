@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Buttonprimary">#fca103</color>
+    <color name="red">#ff0000</color>
+    <color name="launcherbackground">#23c378</color>
+    <color name="backgroundgreen">#4CAF50</color>
+    <color name="actionbarcolor">#302e2e</color>
+    <color name="blue">#0593ff</color>
+    <color name="lightgray">#e6eaf0</color>
+    <color name="quantum_grey">#afb5c8</color>
+
+</resources>

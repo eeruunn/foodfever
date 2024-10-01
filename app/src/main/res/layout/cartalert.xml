@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You can only order from one restaurant at a time. Items from other restaurants will be removed"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/open_sans_semibold"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cartalertok"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:text="ok"/>
+        <Button
+            android:id="@+id/cartalertcancel"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:text="Cancel"/>
+    </LinearLayout>
+
+</LinearLayout>

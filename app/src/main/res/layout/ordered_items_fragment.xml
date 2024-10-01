@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dpend.foodfever.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Orders"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Orders to show"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:id="@+id/noorderstext"
+        android:textSize="25sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ordered_items_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcfbf7" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="no ordered items found"
+        android:visibility="gone"
+        android:id="@+id/result"/>
+</LinearLayout>

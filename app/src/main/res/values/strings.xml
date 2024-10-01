@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Food Fever</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="spinnerarray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="siteurl">http://192.168.1.103:8000/</string>
+    <string name="please_enter_your_registered_phone_number">please enter your registered phone number !</string>
+    <string name="town_street">Town/Street</string>
+    <string name="housename">House/Shop name</string>
+    <string name="landmark">Landmark</string>
+    <string name="address1">Address1</string>
+    <string name="pincode">Pincode</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="add_address">Add address</string>
+    <string name="enter_otp">Enter Otp</string>
+    <string name="exit">Exit</string>
+</resources>

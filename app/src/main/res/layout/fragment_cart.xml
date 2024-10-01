@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.dpend.foodfever.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price: "
+            android:layout_weight="0.5"
+            android:textSize="25sp"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:fontFamily="@font/open_sans_semibold"
+            android:gravity="end" />
+        <TextView
+            android:id="@+id/totalprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:textColor="#b32319"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+        <Button
+            android:id="@+id/proceedtobuybtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed to Buy"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="@drawable/disabledbutton_background"
+            android:textColor="@color/white"
+            android:enabled="false"
+            android:fontFamily="@font/open_sans_semibold"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcfbf7" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Cart is Empty"
+        android:fontFamily="@font/bubblegum_sans"
+
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/result"/>
+
+</LinearLayout>

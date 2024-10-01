@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="Add address"
+        android:textColor="#000"
+        android:textSize="25sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/locationimage"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:padding="5dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use current location"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/button_background"
+        android:id="@+id/uclbtn"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manually add location"
+        android:enabled="false"
+        android:textSize="15sp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textColor="@color/lightgray"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/disabledbutton_background"
+
+
+        />
+    </LinearLayout>
+
+</LinearLayout>

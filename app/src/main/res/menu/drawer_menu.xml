@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_home"
+            android:numericShortcut="1"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_product"
+            android:visible="false"
+            android:numericShortcut="2"
+            android:title="Categories" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:numericShortcut="3"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_orders"
+            android:numericShortcut="4"
+            android:title="Your orders" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_cart"
+            android:numericShortcut="5"
+            android:title="Your cart" />
+        <item
+            android:id="@+id/nav_address"
+            android:numericShortcut="6"
+            android:icon="@drawable/ic_address"
+            android:title="Your Addresses" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:numericShortcut="7"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_cus"
+                android:numericShortcut="8"
+                android:icon="@drawable/ic_aboutus"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+</menu>
+
+<!--<item-->
+<!--android:id="@+id/nav_send"-->
+<!--android:icon="@drawable/ic_contactus"-->
+<!--android:title="Customer support" />-->

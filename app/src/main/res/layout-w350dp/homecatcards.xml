@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:background="#d4d9d6"
+
+
+
+    tools:context="com.dpend.foodfever.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:id="@+id/cardheadingbox">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="---"
+                android:id="@+id/cardheading"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:paddingBottom="15dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="5dp"
+
+            android:layout_below="@+id/cardheadingbox">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:padding="5dp"
+                >
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="5dp"
+
+                        android:orientation="vertical">
+                        <ImageView
+                            android:clickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img1"
+                            android:layout_weight="0.8"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_launcher_background"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="---"
+                            android:textStyle="bold"
+                            android:id="@+id/img1name"
+                            android:textSize="10sp"
+                            android:textColor="#000"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:id="@+id/img2"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.8"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_launcher_background"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="---"
+                            android:textStyle="bold"
+                            android:id="@+id/img2name"
+
+                            android:textSize="10sp"
+                            android:textColor="#000"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                >
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img3"
+                            android:layout_weight="0.8"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_launcher_background"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="---"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            android:id="@+id/img3name"
+
+                            android:textColor="#000"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:id="@+id/img4"
+                            android:layout_weight="0.8"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_launcher_background"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/img4name"
+
+                            android:text="---"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            android:textColor="#000"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="vertical"-->
+<!--android:layout_marginTop="20dp"-->
+<!--android:background="#d4d9d6"-->
+
+
+
+<!--tools:context="com.dpend.foodfever.MainActivity">-->
+<!--<LinearLayout-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content">-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#fff"-->
+<!--        android:id="@+id/cardheadingbox">-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="-&#45;&#45;"-->
+<!--            android:id="@+id/cardheading"-->
+<!--            android:fontFamily="@font/open_sans_semibold"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="20sp"-->
+<!--            android:paddingBottom="15dp"-->
+<!--            android:paddingTop="8dp"-->
+<!--            android:paddingLeft="8dp"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#fff"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="10dp"-->
+
+<!--        android:layout_below="@+id/cardheadingbox">-->
+<!--        <LinearLayout-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:alignmentMode="alignMargins"-->
+<!--            android:padding="15dp"-->
+<!--            >-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_gravity="center_horizontal|center_vertical"-->
+<!--                android:layout_marginRight="25dp"-->
+
+<!--                android:orientation="vertical">-->
+<!--                <ImageView-->
+<!--                    android:clickable="true"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:id="@+id/img1"-->
+<!--                    android:layout_weight="0.8"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:src="@drawable/ic_launcher_background"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="-&#45;&#45;"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:id="@+id/img1name"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:textAlignment="center"/>-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_gravity="center_horizontal|center_vertical"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:orientation="vertical">-->
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:id="@+id/img2"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="0.8"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:src="@drawable/ic_launcher_background"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="-&#45;&#45;"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:id="@+id/img2name"-->
+
+<!--                    android:textSize="10sp"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:textAlignment="center"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:padding="15dp"-->
+<!--            >-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_gravity="center_horizontal|center_vertical"-->
+<!--                android:layout_marginRight="25dp"-->
+<!--                android:orientation="vertical">-->
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:id="@+id/img3"-->
+<!--                    android:layout_weight="0.8"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:src="@drawable/ic_launcher_background"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="-&#45;&#45;"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:id="@+id/img3name"-->
+
+<!--                    android:textColor="#000"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:textAlignment="center"/>-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_gravity="center_horizontal|center_vertical"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:orientation="vertical">-->
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:id="@+id/img4"-->
+<!--                    android:layout_weight="0.8"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:src="@drawable/ic_launcher_background"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/img4name"-->
+
+<!--                    android:text="-&#45;&#45;"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:textAlignment="center"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+<!--</LinearLayout>-->
+<!--</ScrollView>-->

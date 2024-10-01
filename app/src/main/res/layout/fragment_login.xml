@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <TextView
+        android:id="@+id/skiplogintxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:fontFamily="@font/open_sans_semibold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#302e2e"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/loginphone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginreg_input"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/loginpass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:background="@drawable/loginreg_input"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="end"
+        android:text="Forgot password?"
+        android:textSize="15sp"
+        android:textColor="@color/blue"
+        android:clickable="true"/>
+    <TextView
+        android:id="@+id/credwarning"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wrong phonenumber or password !"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Login"
+        android:layout_gravity=""
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/registertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Don't have an account? Register"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/open_sans_semibold"/>
+
+
+</LinearLayout>

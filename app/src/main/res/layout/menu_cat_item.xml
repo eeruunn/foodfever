@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/menu_cat_item_categoryname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="20sp"
+        android:background="@color/backgroundgreen"
+        android:textColor="@color/white"
+        android:fontFamily="@font/open_sans_semibold"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/menu_items_recyclerview"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>
